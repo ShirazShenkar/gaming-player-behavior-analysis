@@ -9,7 +9,7 @@ Analyzed **40,034 player records** in MySQL to assess engagement, purchasing beh
 Analyze engagement and in-game purchasing behavior to identify actionable player segments and testable first-purchase conversion opportunities.
 
 ## Dataset & Method
-- **Source:** Synthetic Kaggle gaming behavior dataset; one row per player (40,034 unique players).
+- **Source:** [Gaming Player Behavior Dataset](PASTE_KAGGLE_URL_HERE) (Kaggle, synthetic data).
 - **Tools:** MySQL Workbench; CTEs, conditional aggregation, and window functions.
 - **Purchases:** `InGamePurchases` is binary (ever purchased: yes/no), not revenue or transaction count.
 - **Playtime:** `EstimatedWeeklyPlayTimeHours = SessionsPerWeek × AvgSessionDurationMinutes / 60`; an estimate, not observed hours.
