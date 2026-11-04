@@ -9,7 +9,7 @@ Analyzed **40,034 player records** in MySQL to assess engagement, purchasing beh
 Analyze engagement and in-game purchasing behavior to identify actionable player segments and testable first-purchase conversion opportunities.
 
 ## Dataset & Method
-- **Source:** [Gaming Player Behavior Dataset](https://www.kaggle.com/code/sulaniishara/player-engagement-analysis-prediction) (Kaggle, synthetic data).
+- **Source:** [Predict Online Gaming Behavior Dataset](https://www.kaggle.com/datasets/rabieelkharoua/predict-online-gaming-behavior-dataset) by Rabie El Kharoua (Kaggle, synthetic data).
 - **Tools:** MySQL Workbench; CTEs, conditional aggregation, and window functions.
 - **Purchases:** `InGamePurchases` is binary (ever purchased: yes/no), not revenue or transaction count.
 - **Playtime:** `EstimatedWeeklyPlayTimeHours = SessionsPerWeek × AvgSessionDurationMinutes / 60`; an estimate, not observed hours.
